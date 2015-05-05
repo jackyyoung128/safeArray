@@ -15,7 +15,11 @@ int main()
     {
         int c, v;
         scanf ( "%d %d", &c, &v );
-        arr.Set ( c, v );
+        if ( &arr[c]!=NULL )
+            arr[c] = v;
     }
+
+    cout << arr;
+
     return 0;
 }

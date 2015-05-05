@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1430803647 source:c:\users\pc\documents\github\safearray\main.cpp
+	<iostream>
+	<stdio.h>
+	"safeArray.h"
+
+1430803609 c:\users\pc\documents\github\safearray\include\safearray.h
+	<iostream>
+
+1430803546 source:c:\users\pc\documents\github\safearray\src\safearray.cpp
+	<stdio.h>
+	"safeArray.h"
+

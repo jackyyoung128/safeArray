@@ -22,10 +22,3 @@ void safeArray::False ()
     printf ( "Your input is false!\n" );
 }
 
-void safeArray::Set ( int n, int v )
-{
-    if ( oK (n) )
-        data [n] = v;
-    else
-        False ();
-}
